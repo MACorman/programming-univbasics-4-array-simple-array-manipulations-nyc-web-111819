@@ -56,8 +56,7 @@ def using_delete(instructors, remove_steven)
 end
 
 def using_delete_at(famous_robots, robocop)
-  famous_robots
-  robocop = 2
+  robocop = famous_robots[2]
   deleted_robot = famous_robots.delete(robocop)
 end
 
